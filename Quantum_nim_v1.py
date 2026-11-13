@@ -14,9 +14,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -157,17 +157,17 @@ Posebnost: Kvantno modeliranje stabilnih stanja kroz 6-bitnu Nim-sumu
 Fajl: loto7_4718_k90
 Validacioni gubici: 5.6860
 Test gubici: 5.7292
-NEXT: [3, 7, 12, 20, 21, 22, 23]
+NEXT: [3, x, 12, y, 21, z, 23]
 
 Fajl: loto7_4718_k90_loto_2981
 Validacioni gubici: 5.7651
 Test gubici: 5.7740
-NEXT: [21, 22, 25, 26, 29, 30, 31]
+NEXT: [21, x, 25, y, 29, z, 31]
 
 Fajl: loto7_4718_k90_loto_plus_1737
 Validacioni gubici: 5.7308
 Test gubici: 5.7969
-NEXT: [2, 5, 7, 8, 10, 23, 27]
+NEXT: [2, x, 7, y, 10, z, 27]
 """
 
 
